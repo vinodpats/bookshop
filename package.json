@@ -49,7 +49,7 @@
     },
     "requires": {
       "db": {
-        "kind": "hana-cloud",
+        "kind": "sqlite",
         "credentials": {
           "database": "bookshop.db"
         }

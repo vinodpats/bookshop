@@ -1,8 +1,12 @@
 namespace com.accenture;
 using { cuid, managed, Country } from '@sap/cds/common';
 
-entity Books
-{
+//asepts are reusable models
+aspect additionalInfo{
+    language: String (100);
+}
+
+entity Books: additionalInfo{
     key ID : Integer;
     title : String;
     stock : Integer;
