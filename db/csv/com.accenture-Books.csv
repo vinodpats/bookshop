@@ -1,4 +1,4 @@
-language,ID,title,stock,author_ID
-EN,1,The Intelligent Investor,200,101
-EN,2,The Raven,225,102
-FR,3,My Story in French, 20,103
+language,lan_code,ID,title,stock,author_ID
+English,en_US,1,The Intelligent Investor,200,101
+English,en_US,2,The Raven,225,102
+French,fr_FR,3,My Story in French, 20,103
